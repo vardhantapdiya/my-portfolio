@@ -1,0 +1,11 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore build output
+dist/
+
+# Optional: OS and IDE clutter
+.DS_Store
+.env
+*.log
+.vscode/
