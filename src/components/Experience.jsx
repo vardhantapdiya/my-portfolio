@@ -3,7 +3,7 @@ import React from "react";
 export default function Experience() {
   return (
     <section
-      className="-mt-6 h-screen flex flex-col justify-center px-4 bg-gradient-to-b from-white to-gray-100 dark:from-gray-800 dark:to-gray-900 transition overflow-hidden"
+      className="-mt-6 min-h-screen flex flex-col justify-center px-4 bg-gradient-to-b from-white to-gray-100 dark:from-gray-800 dark:to-gray-900 transition overflow-hidden"
       data-aos="fade-up"
     >
       <div className="max-w-3xl mx-auto w-full">
