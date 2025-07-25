@@ -38,6 +38,12 @@ export default function Navbar() {
                         {/* <a href="#experience" className="hover:text-indigo-500 dark:hover:text-indigo-400 transition">
               Experience
             </a> */}
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        {/* <a href="#experience" className="hover:text-indigo-500 dark:hover:text-indigo-400 transition">
+              Experience
+            </a> */}
                         <Link to="/experience">Experience</Link>
                     </li>
                     <li>
