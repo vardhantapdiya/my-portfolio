@@ -3,11 +3,11 @@ import React from "react";
 export default function Experience() {
   return (
     <section
-      className="-mt-2 min-h-screen py-20 flex flex-col justify-center px-4 bg-gradient-to-b from-white to-gray-100 dark:from-gray-800 dark:to-gray-900 transition overflow-hidden"
+      className="min-h-screen py-20 flex flex-col justify-center px-4 bg-gradient-to-b from-white to-gray-100 dark:from-gray-800 dark:to-gray-900 transition overflow-hidden"
       data-aos="fade-up"
     >
       <div className="max-w-3xl mx-auto w-full">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 dark:text-indigo-400 mb-8">
+        <h2 className="-mt-20 text-4xl font-bold text-center text-indigo-600 dark:text-indigo-400 mb-8">
           Experience
         </h2>
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
