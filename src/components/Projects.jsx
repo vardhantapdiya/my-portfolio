@@ -26,7 +26,7 @@ const projects = [
 export default function Projects() {
   return (
     <section className="min-h-screen py-20 px-6 bg-white dark:bg-gray-900 transition" data-aos="fade-up">
-      <h2 className="-mt-20 text-4xl font-bold text-center text-indigo-600 dark:text-indigo-400 mb-10">Projects</h2>
+      <h2 className="text-4xl font-bold text-center text-indigo-600 dark:text-indigo-400 mb-10">Projects</h2>
       <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {projects.map((project, index) => (
           <div key={index} className="flex flex-col justify-evenly bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition">
