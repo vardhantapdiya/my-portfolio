@@ -13,7 +13,7 @@ export default function Hero() {
         Vardhan Tapdiya
       </h1>
       <p className="text-lg sm:text-xl max-w-xl mb-6 text-gray-700 dark:text-gray-300">
-       Full-Stack Developer | React & Node.js | Turning Ideas into Scalable Products
+        Full-Stack Developer | React & Node.js | Turning Ideas into Scalable Products
       </p>
       <div className="flex space-x-6">
         <a
@@ -31,6 +31,17 @@ export default function Hero() {
           LinkedIn
         </a>
       </div>
+      <div className="mt-6">
+        <a
+          href="https://drive.google.com/file/d/1jZVCWORNo7pft7V3rBcU2mI8FzDTYUS8/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-3xl shadow-md hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors duration-300"
+        >
+          My Resume
+        </a>
+      </div>
+
     </section>
   );
 }
