@@ -33,7 +33,7 @@ export default function Hero() {
       </div>
       <div className="mt-6">
         <a
-          href="https://drive.google.com/file/d/1jZVCWORNo7pft7V3rBcU2mI8FzDTYUS8/view?usp=sharing"
+          href="https://drive.google.com/file/d/1p4-7PSkAc6pYG9-Ym1BTYoavVxwwc3VW/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-3xl shadow-md hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors duration-300"

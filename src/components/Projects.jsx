@@ -2,6 +2,11 @@ import React from "react";
 
 const projects = [
   {
+    title: "Pill Pal - Medicine Alternatives App",
+    desc:"Built using MERN stack (MongoDB, Express.js, React.js, Node.js) with Redux and Tailwind CSS. Features include JWT-based authentication, OTP password reset, role-based authorization, RESTful APIs for medicine alternatives and saved medicines, Gemini API integration for intelligent suggestions, and secure password handling with Bcrypt.",
+    link: "https://pill-pal-medicinefinder.vercel.app/"
+  },
+  {
     title: "NetMart - E-Commerce Store",
     desc:"Developed a responsive E-Commerce frontend using React and Redux for efficient state management.Integrated a third party API to dynamically fetch and display product listings. Implemented Add to Cart functionality with real-time updates for item count and total price.",
     link: "https://github.com/vardhantapdiya/Net-Mart-E-Commerce-Front-End-"
@@ -15,11 +20,6 @@ const projects = [
     title: "Informative-Blogs",
     desc: "This is a fully responsive blog website built using React and Context API for state management. It features a clean, modern UI where users can browse, read, and explore blog posts seamlessly. The app showcases component-based architecture, state-management and dynamic routing, — all focused on delivering a smooth front-end experience.",
     link: "https://github.com/vardhantapdiya/Informative-Blogs"
-  },
-  {
-    title: "Course Mart",
-    desc: "This is a course listing website built using pure React, featuring a clean and responsive front-end design. Users can browse through courses and interact with them using a built-in like feature, all managed through component state. The app showcases reusable components, props-based data flow, and a focus on simplicity",
-    link: "https://github.com/vardhantapdiya/Courses-Mart"
   },
 ];
 
