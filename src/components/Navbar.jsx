@@ -33,7 +33,7 @@ export default function Navbar() {
                 <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400 tracking-wide">
                     <Link to="/">Vardhan</Link>
                 </div>
-                <ul className="flex flex-wrap justify-center items-center space-x-4 sm:space-x-6 text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-base">
+                <ul className="flex flex-wrap justify-center items-center space-x-4 sm:space-x-6 text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-base lg:-ml-16">
                     <li>
                         {/* <a href="#experience" className="hover:text-indigo-500 dark:hover:text-indigo-400 transition">
               Experience

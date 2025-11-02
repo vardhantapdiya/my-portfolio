@@ -19,19 +19,31 @@ export default function Experience() {
           </p>
           <ul className="mt-2 list-disc list-inside text-gray-600 dark:text-gray-400 text-sm leading-relaxed space-y-1">
             <li>
-              Developed dynamic, scalable, and responsive UI components for TCS BaNCS 2.0 using React.js, enhancing user experience and system usability for global banking clients.
+              <b>Developed dynamic, scalable, and responsive UI components</b> for TCS BaNCS 2.0 using <b>ReactJS and Redux</b>,
+              ensuring smooth state management and enhanced user experience for global banking clients. Implemented
+              reusable components and optimized rendering performance for high-traffic modules.
             </li>
             <li>
-              Collaborated in an Agile Scrum team to deliver high-quality features in iterative sprints, participating in daily stand-ups, sprint planning, and code reviews.
+              <b>Integrated RESTful APIs with React components</b>, leveraging <b>Redux</b> for centralized state management, to
+              fetch, display, and update banking data in real-time, improving application interactivity and responsiveness.
             </li>
             <li>
-              Integrated RESTful APIs with React components to fetch, display, and update banking data in real-time, improving application interactivity and performance.
+              <b>Managed code integration and version control using Git and Gerrit</b>, ensuring smooth code reviews, branch
+              management, and collaborative development.
             </li>
             <li>
-              Worked closely with cross-functional teams including back-end developers, QA engineers, and business analysts to deliver seamless user experiences across different modules.
+              <b>Rehosted and transformed multiple banking APIs</b> by configuring <b>service.xml</b> files, designing <b>Jolt and 
+                JSON</b> mappings, and implementing custom <b>Java transformer functions</b>, enabling seamless integration of legacy APIs
+              into modern UI workflows.
             </li>
             <li>
-              Utilized Git for version control, ensuring smooth project delivery.
+              <b>Collaborated in an Agile Scrum environment</b>, participating in daily stand-ups, sprint planning, backlog
+              refinement, and code reviews, delivering high-quality features in iterative sprints. Actively <b>coordinated with
+              backend developers, QA engineers, and business analysts</b> to ensure cohesive delivery across modules.
+            </li>
+            <li>
+              <b>Enhanced UI styling and layout using CSS (Flexbox, Grid, and responsive design techniques)</b> to create visually
+              appealing, responsive interfaces across devices and screen sizes.
             </li>
           </ul>
         </div>
