@@ -1,9 +1,10 @@
 import React from "react";
 import VardhanPhoto_Cropped from "../assets/VardhanPhoto_Cropped.jpg"
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center mt-0 px-6 bg-gradient-to-t from-indigo-200 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-500">
+    <section className="min-h-screen flex flex-col items-center justify-center text-center mt-0 px-6 bg-gradient-to-t from-indigo-200 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-500" id="home">
       <img
         src={VardhanPhoto_Cropped}
         alt="Profile"
@@ -15,7 +16,20 @@ export default function Hero() {
       <p className="text-lg sm:text-xl max-w-xl mb-6 text-gray-700 dark:text-gray-300">
         Full-Stack Developer | React & Node.js | Turning Ideas into Scalable Products
       </p>
-      <div className="flex space-x-6">
+      <div className="mt-1 flex flex-row gap-5">
+        <Link to="/projects"
+          className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-3xl shadow-md hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors duration-300"
+          >My Projects</Link>
+        <a
+          href="https://drive.google.com/file/d/1Nlgkkyq1ql0QV4g3yKLjLJD_nmx0YWXC/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-3xl shadow-md hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors duration-300"
+        >
+          My Resume
+        </a>
+      </div>
+      <div className=" mt-6 flex space-x-6">
         <a
           href="https://github.com/vardhantapdiya"
           target="_blank"
@@ -29,16 +43,6 @@ export default function Hero() {
           className="text-indigo-600 dark:text-indigo-400 hover:underline text-xl"
         >
           LinkedIn
-        </a>
-      </div>
-      <div className="mt-6">
-        <a
-          href="https://drive.google.com/file/d/1vTV6l0OZSJnznYRYtI0LsZy4iSTaUCI_/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-3xl shadow-md hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors duration-300"
-        >
-          My Resume
         </a>
       </div>
 

@@ -27,6 +27,25 @@ export default function Navbar() {
         }
     };
 
+    const handleHomeClick = () => {
+        if (location.pathname === "/") {
+            // Already on home, just scroll needed
+            const homeSection = document.getElementById("home");
+            if (homeSection) {
+                homeSection.scrollIntoView({ behavior: "smooth" });
+            }
+        } else {
+            // Navigate to home and scroll after render
+            navigate("/");
+            // setTimeout(() => {
+            //     const contactSection = document.getElementById("contact");
+            //     if (contactSection) {
+            //         contactSection.scrollIntoView({ behavior: "smooth" });
+            //     }
+            // }, 100);
+        }
+    };
+
     return (
         <header className="fixed top-0 left-0 w-full z-50 py-2 bg-white/70 dark:bg-gray-900/80 backdrop-blur-md shadow-sm transition-colors">
             <nav className="max-w-7xl mx-auto px-6 py-3 flex flex-wrap items-center justify-between gap-4 sm:gap-0">
@@ -38,7 +57,7 @@ export default function Navbar() {
                         {/* <a href="#experience" className="hover:text-indigo-500 dark:hover:text-indigo-400 transition">
               Experience
             </a> */}
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={handleHomeClick}>Home</Link>
                     </li>
                     <li>
                         {/* <a href="#experience" className="hover:text-indigo-500 dark:hover:text-indigo-400 transition">
