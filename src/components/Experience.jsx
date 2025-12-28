@@ -15,7 +15,7 @@ export default function Experience() {
             Tata Consultancy Services
           </h3>
           <p className="text-gray-700 dark:text-gray-300">
-            Product Engineer - UI | 09/2024 - Present
+            Software Engineer (Frontend - React.js) | 09/2024 - Present
           </p>
           <ul className="mt-2 list-disc list-inside text-gray-600 dark:text-gray-400 text-sm leading-relaxed space-y-1">
             <li>
